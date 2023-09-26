@@ -10,7 +10,7 @@ import pandas as pd
 import base64
 
 # Load your inventory dataset
-inventory = pd.read_csv(r'C:\Users\Haidar\Desktop\Marino Lucci\inventory for photography.csv', encoding='ISO-8859-1')
+inventory = pd.read_csv('inventory for photography.csv', encoding='ISO-8859-1')
 
 # Initialize an empty list to store outfit data in session state
 if 'outfits_data' not in st.session_state:
